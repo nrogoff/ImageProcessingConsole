@@ -54,7 +54,7 @@ namespace hms.ImageProcessingConsole
                     var origShootDate = ImageHandler.GetShootDate(Options.FilePath);
 
                     //see if date is specified in command options
-                    if (Options.ShootDate == null)
+                    if (Options.ShotDate == null)
                     {
                         //find closest image file and read shoot date working back.
                         var folderHandler = new FolderHandler();
@@ -86,7 +86,7 @@ namespace hms.ImageProcessingConsole
                             Folder = Path.GetDirectoryName(Options.FilePath),
                             FilePath = Options.FilePath,
                             OrigShootDate = origShootDate,
-                            newShootDate = Options.ShootDate.Value,
+                            newShootDate = Options.ShotDate.Value,
                             ReplaceShootData = true,
                             Processed = false
                         });
@@ -108,13 +108,13 @@ namespace hms.ImageProcessingConsole
                     foreach (var imageFileItem in _fileList)
                     {
                         DateTime? newShootDate = null;
-                        if (Options.ShootDate == null)
+                        if (Options.ShotDate == null)
                         {
                             newShootDate = GetNearestShootData(_fileList, imageFileItem.FilePath);
                         }
                         else
                         {
-                            newShootDate = Options.ShootDate;
+                            newShootDate = Options.ShotDate;
                         }
                         if (newShootDate != null)
                         {

@@ -14,8 +14,8 @@ namespace hms.ImageProcessingConsole
         [Option('i',"includeSubfolders", HelpText = "If you specified a folder, then to include subfolders.")]
         public bool IncludeSubFolders { get; set; }
 
-        [Option('s',"shootdate",HelpText = "Set to this Shoot Date. yyyy-mm-dd hh:mm:ss . If not specified then the shoot date of the nearest file in the same folder (ordered by name) that has one will be used.")]
-        public DateTime? ShootDate { get; set; }
+        [Option('s',"shottakendate",HelpText = "Set to this Shot Taken Date. yyyy-mm-dd hh:mm:ss . If not specified then the shoot date of the nearest file in the same folder (ordered by name) that has one will be used.")]
+        public DateTime? ShotDate { get; set; }
 
         [Option('o', "overwrite", HelpText = "Force shoot data overwrite even if one exists.")]
         public bool Overwrite { get; set; }
