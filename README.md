@@ -36,7 +36,7 @@ Or the folder to search and fix all images in. JPGs and PNGs only
 -i, --includeSubfolders    
 If you specified a folder, then to include subfolders.
 
--s, --shootdate            
+-s, --shottakendate            
 Set to this Shot Taken Date. yyyy-mm-dd hh:mm:ss . 
 If not specified then the shoot date of the nearest file in the same folder (ordered by name) that has one will be used.
 
