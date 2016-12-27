@@ -12,7 +12,7 @@ You can download the executable here. [ImageProcessingConsole.exe](https://githu
 ##### Platform code
 
 * [Solution File](https://github.com/nrogoff/ImageProcessingConsole/blob/master/src/hms.ImageProcessing/hms.ImageProcessing.sln)
-* [Links to platform specific renderers or concrete implementations in the repo](#)
+* [src folder](https://github.com/nrogoff/ImageProcessingConsole/tree/master/src)
 
 ## Functionality and How to use
 As new functionality comes online, then this sections will be updated.
