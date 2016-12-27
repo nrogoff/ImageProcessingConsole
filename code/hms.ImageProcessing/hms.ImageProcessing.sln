@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hms.ImageProcessingConsole", "hms.ImageProcessingConsole\hms.ImageProcessingConsole.csproj", "{1B7849B1-17BA-416E-A5CA-CCE828276A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hms.ConsoleProcessorTemplate", "..\hms.ConsoleProcessorTemplate\hms.ConsoleProcessorTemplate\hms.ConsoleProcessorTemplate.csproj", "{10D995A4-B3EF-44E7-8EB3-3FC3B7413F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7849B1-17BA-416E-A5CA-CCE828276A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7849B1-17BA-416E-A5CA-CCE828276A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7849B1-17BA-416E-A5CA-CCE828276A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7849B1-17BA-416E-A5CA-CCE828276A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D995A4-B3EF-44E7-8EB3-3FC3B7413F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D995A4-B3EF-44E7-8EB3-3FC3B7413F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D995A4-B3EF-44E7-8EB3-3FC3B7413F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D995A4-B3EF-44E7-8EB3-3FC3B7413F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

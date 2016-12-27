@@ -1,0 +1,3003 @@
+<assembly name="MetadataExtractor">
+  <member name="M:MetadataExtractor.Formats.Adobe.AdobeJpegDescriptor.#ctor(MetadataExtractor.Formats.Adobe.AdobeJpegDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Adobe.AdobeJpegDescriptor.GetDctEncodeVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Adobe.AdobeJpegDescriptor.GetColorTransformDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Adobe.AdobeJpegReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Adobe.AdobeJpegReader.Extract(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Bmp.BmpHeaderDescriptor.#ctor(MetadataExtractor.Formats.Bmp.BmpHeaderDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Bmp.BmpHeaderDescriptor.GetCompressionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Bmp.BmpMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Bmp.BmpMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Bmp.BmpReader.Extract(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.AppleMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.AppleMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetSerialNumberDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFlashBiasDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetAfPointUsedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetTagAfPointsInFocus">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFocusMode2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFlashDetailsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFocalUnitsPerMillimetreDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetShortFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetLongFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetExposureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetAfPointSelectedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetMeteringModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetIsoDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetEasyShootingModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetImageSizeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFocusMode1Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetContinuousDriveModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFlashModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetSelfTimerDelayDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetMacroModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetDigitalZoomDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetRecordModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFocusTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetLensTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetMaxApertureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetMinApertureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFlashActivityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetFocusContinuousDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetAESettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetDisplayApertureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetSpotMeteringModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetPhotoEffectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetManualFlashOutputDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetColorToneDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CanonMakernoteDescriptor.GetSRawQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetCcdSensitivityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetDigitalZoomDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetObjectDistanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetFlashIntensityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetFlashModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetFocusingModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType1MakernoteDescriptor.GetRecordingModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetEnhancementDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetColourModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetCcdIsoSensitivityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetTimeZoneDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetFocusMode2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetSelfTimerDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetRecordModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetFlashDistanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetObjectDistanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetWhiteBalance2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetWhiteBalanceBiasDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetCasioPreviewThumbnailDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetPrintImageMatchingInfoDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetWhiteBalance1Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetIsoSensitivityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetFocusMode1Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetImageSizeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetQualityModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetThumbnailOffsetDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetThumbnailSizeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.CasioType2MakernoteDescriptor.GetThumbnailDimensionsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetColorSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetToneDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetHighIsoNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetFlashModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetFlashExposureValueDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetMacroDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetFocusModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetSlowSyncDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetPictureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetExrAutoDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetExrModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetAutoBracketingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetFinePixColorDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetBlurWarningDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetFocusWarningDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetAutoExposureWarningDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetDynamicRangeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetFilmModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.FujifilmMakernoteDescriptor.GetDynamicRangeSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetColorModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetFlashFiredDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetFlashModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetFocusModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetShutterModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetBurstModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KodakMakernoteDescriptor.GetQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KyoceraMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.KyoceraMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KyoceraMakernoteDescriptor.GetPrintImageMatchingInfoDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.KyoceraMakernoteDescriptor.GetProprietaryThumbnailDataDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.LeicaMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.LeicaMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetConverterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetDigitalZoomDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetFocusDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetCcdSensitivityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetImageAdjustmentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetColorModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType1MakernoteDescriptor.GetQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetPowerUpTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetHighIsoNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetFlashUsedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetNefCompressionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetShootingModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetLensTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetColorSpaceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetActiveDLightingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetVignetteControlDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetAutoFocusPositionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetDigitalZoomDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetProgramShiftDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetExposureDifferenceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetAutoFlashCompensationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetFlashExposureCompensationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetFlashBracketCompensationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetExposureTuningDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetLensStopsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetIsoSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetLensDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetHueAdjustmentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetColorModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.NikonType2MakernoteDescriptor.GetFirmwareVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetCameraSettingsVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPreviewImageValidDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetExposureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetAeLockDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetMeteringModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetExposureShiftDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetNdFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetMacroModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetFocusModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetFocusProcessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetAfSearchDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetAfAreasDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetAfPointSelectedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetAfFineTuneDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetFlashModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetFlashRemoteControlDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetFlashControlModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetFlashIntensityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetManualFlashStrengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetWhiteBalance2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetWhiteBalanceTemperatureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetCustomSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetModifiedSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetContrastSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetSharpnessSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetColorSpaceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetSceneModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetDistortionCorrectionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetShadingCompensationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetGradationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPictureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPictureModeSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPictureModeContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPictureModeSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPictureModeBWFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPictureModeToneDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetNoiseFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetArtFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetMagicFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPictureModeEffectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetToneLevelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetArtFilterEffectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetDriveModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPanoramaModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetImageQuality2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetImageStabilizationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetStackedImageDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetManometerPressureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetManometerReadingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetExtendedWBDetectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetRollAngleDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetPitchAngleDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusCameraSettingsMakernoteDescriptor.GetDateTimeUtcDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetEquipmentVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetFocalPlaneDiagonalDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetBodyFirmwareVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetLensTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetLensFirmwareVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetMaxApertureAtMinFocalDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetMaxApertureAtMaxFocalDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetMaxApertureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetLensPropertiesDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetExtenderDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetFlashTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusEquipmentMakernoteDescriptor.GetFlashModelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetFocusInfoVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetAutoFocusDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetFocusDistanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetAfPointDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetExternalFlashDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetExternalFlashBounceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetExternalFlashZoomDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetManualFlashDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetMacroLedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetSensorTemperatureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusFocusInfoMakernoteDescriptor.GetImageStabilizationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.GetImageProcessingVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.GetColorMatrixDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.GetNoiseReduction2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.GetDistortionCorrection2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.GetShadingCompensation2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.GetMultipleExposureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusImageProcessingMakernoteDescriptor.GetAspectRatioDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetExposureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFlashModeCameraSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetImageSizeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetImageQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetShootingModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetMeteringModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetApexFilmSpeedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetApexShutterSpeedTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetApexApertureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetMacroModeCameraSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetDigitalZoomDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetExposureCompensationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetBracketStepDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetIntervalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetIntervalNumberDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFocusDistanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFlashFiredDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetDateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetMaxApertureAtFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFileNumberMemoryDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetLastFileNumberDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetWhiteBalanceRedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetWhiteBalanceGreenDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetWhiteBalanceBlueDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetSharpnessCameraSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetSubjectProgramDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFlashCompensationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetIsoSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetCameraModelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetIntervalModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFolderNameDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetColorModeCameraSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetColorFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetBlackAndWhiteFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetInternalFlashDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetApexBrightnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetSpotFocusPointXCoordinateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetSpotFocusPointYCoordinateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetWideFocusZoneDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFocusModeCameraSettingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFocusAreaDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetDecSwitchPositionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetMakernoteVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetImageQuality2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetImageQuality1Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetColorModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFocusModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFocusRangeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetFlashModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetDigiZoomRatioDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetCameraIdDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetMacroModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetBwModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetJpegQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusMakernoteDescriptor.GetSpecialModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevExposureBiasValueDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevColorSpaceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevEngineDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevPictureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevPmBwFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevPmPictureToneDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopment2MakernoteDescriptor.GetRawDevArtFilterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDescriptor.GetRawDevVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDescriptor.GetRawDevColorSpaceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDescriptor.GetRawDevEngineDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDescriptor.GetRawDevNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDescriptor.GetRawDevEditStatusDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.OlympusRawDevelopmentMakernoteDescriptor.GetRawDevSettingsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetPrintImageMatchingInfoDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetTextStampDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetTextStamp1Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetTextStamp2Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetTextStamp3Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetMacroModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetFlashFiredDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetImageStabilizationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetAudioDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetTransformDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetTransform1Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetIntelligentExposureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetFlashWarningDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetCountryDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetStateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetCityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetLandmarkDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetTitleDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetBabyNameDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetLocationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetIntelligentResolutionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetWorldTimeLocationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetAdvancedSceneModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetUnknownDataDumpDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetColorEffectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetUptimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetBurstModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetContrastModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetSelfTimerDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetRotationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetAfAssistLampDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetColorModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetOpticalZoomModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetConversionLensDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetDetectedFacesDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetRecognizedFacesDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetRecordModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetSceneModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetFocusModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetAfAreaModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetQualityModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetMakernoteVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetExifVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetInternalSerialNumberDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetBabyAgeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDescriptor.GetBabyAge1Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDirectory.GetDetectedFaces">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDirectory.GetRecognizedFaces">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.ItemNotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PanasonicMakernoteDirectory.GetAge(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetColourDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetIsoSpeedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetDigitalZoomDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetFlashModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetFocusModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetQualityLevelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.PentaxMakernoteDescriptor.GetCaptureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.RicohMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.RicohMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SanyoMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.SanyoMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SanyoMakernoteDescriptor.GetSanyoQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SigmaMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.SigmaMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetImageQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetFlashExposureCompensationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetTeleconverterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetColorTemperatureDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetZoneMatchingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetDynamicRangeOptimizerDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetImageStabilizationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetColorModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetMacroDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetExposureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetJpegQualityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetAntiBlurDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetLongExposureNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetHighIsoNoiseReductionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetPictureEffectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetSoftSkinEffectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetVignettingCorrectionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetLateralChromaticAberrationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetDistortionCorrectionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetAutoPortraitFramedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetFocusModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetAfPointSelectedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetSonyModelIdDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetSceneModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetAfModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetAfIlluminatorDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetFlashLevelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetReleaseModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType1MakernoteDescriptor.GetSequenceNumberDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType6MakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.SonyType6MakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.SonyType6MakernoteDescriptor.GetMakernoteThumbVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.Makernotes.ReconyxMakernoteDescriptor.#ctor(MetadataExtractor.Formats.Exif.Makernotes.ReconyxMakernoteDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetInteropVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetInteropIndexDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetReferenceBlackWhiteDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetYResolutionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetXResolutionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetYCbCrPositioningDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetOrientationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetResolutionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetWindowsAuthorDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetWindowsCommentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetWindowsKeywordsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetWindowsTitleDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetWindowsSubjectDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetYCbCrSubsamplingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetPlanarConfigurationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSamplesPerPixelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetRowsPerStripDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetStripByteCountsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetPhotometricInterpretationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetBitsPerSampleDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetImageWidthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetImageHeightDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetNewSubfileTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSubfileTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetThresholdingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFillOrderDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSubjectDistanceRangeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSensitivityTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetLensSpecificationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSharpnessDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSaturationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetContrastDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetGainControlDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSceneCaptureTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.Get35MMFilmEquivFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetDigitalZoomRatioDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetWhiteBalanceModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetExposureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetCustomRenderedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetUserCommentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetIsoEquivalentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetExifVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFlashPixVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSceneTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFileSourceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetExposureBiasDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetMaxApertureValueDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetApertureValueDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetExposureProgramDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFocalPlaneXResolutionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFocalPlaneYResolutionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFocalPlaneResolutionUnitDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetExifImageWidthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetExifImageHeightDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetColorSpaceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFlashDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetWhiteBalanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetMeteringModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetCompressionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSubjectDistanceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetCompressedAverageBitsPerPixelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetExposureTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetShutterSpeedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetFNumberDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetSensingMethodDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetComponentConfigurationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifDescriptorBase`1.GetJpegProcDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifIfd0Descriptor.#ctor(MetadataExtractor.Formats.Exif.ExifIfd0Directory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifInteropDescriptor.#ctor(MetadataExtractor.Formats.Exif.ExifInteropDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifReader.Extract(MetadataExtractor.IO.IndexedReader,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifSubIfdDescriptor.#ctor(MetadataExtractor.Formats.Exif.ExifSubIfdDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifThumbnailDescriptor.#ctor(MetadataExtractor.Formats.Exif.ExifThumbnailDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifThumbnailDescriptor.GetThumbnailLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifThumbnailDescriptor.GetThumbnailOffsetDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Formats.Exif.ExifThumbnailDirectory.ThumbnailData">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifThumbnailDirectory.WriteThumbnail(System.String)">
+    <parameter name="filename">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.ExifTiffHandler.#ctor(System.Collections.Generic.List{MetadataExtractor.Directory},System.Boolean)">
+    <parameter name="directories">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.#ctor(MetadataExtractor.Formats.Exif.GpsDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsLatitudeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsLongitudeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsTimeStampDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsDestinationReferenceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsDirectionDescription(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsDirectionReferenceDescription(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsSpeedRefDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsMeasureModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsStatusDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsAltitudeRefDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsAltitudeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetGpsDifferentialDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDescriptor.GetDegreesMinutesSecondsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Exif.GpsDirectory.GetGeoLocation">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.FileSystem.FileMetadataDescriptor.#ctor(MetadataExtractor.Formats.FileSystem.FileMetadataDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.FileSystem.FileMetadataReader.Read(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="file">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Gif.GifHeaderDescriptor.#ctor(MetadataExtractor.Formats.Gif.GifHeaderDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Gif.GifMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Gif.GifMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Gif.GifReader.Extract(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Icc.IccDescriptor.#ctor(MetadataExtractor.Formats.Icc.IccDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Icc.IccReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Icc.IccReader.Extract(MetadataExtractor.IO.IndexedReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Icc.IccReader.GetStringFromUInt32(System.UInt32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoDescriptor.#ctor(MetadataExtractor.Formats.Ico.IcoDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoDescriptor.GetImageTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoDescriptor.GetImageWidthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoDescriptor.GetImageHeightDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoDescriptor.GetColourPaletteSizeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Ico.IcoReader.Extract(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.#ctor(MetadataExtractor.Formats.Iptc.IptcDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetFileFormatDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetByLineDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetByLineTitleDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetCaptionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetCategoryDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetCityDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetCopyrightNoticeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetCountryOrPrimaryLocationDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetCreditDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetDateCreatedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetDigitalDateCreatedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetDateSentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetExpirationDateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetExpirationTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetHeadlineDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetKeywordsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetObjectNameDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetOriginalTransmissionReferenceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetOriginatingProgramDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetProvinceOrStateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetRecordVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetReferenceDateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetReleaseDateDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetReleaseTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetTimeSentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetSourceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetSpecialInstructionsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetSupplementalCategoriesDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetTimeCreatedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetDigitalTimeCreatedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetUrgencyDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDescriptor.GetWriterDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDirectory.GetKeywords">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDirectory.GetDateSent">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDirectory.GetReleaseDate">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDirectory.GetExpirationDate">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDirectory.GetDateCreated">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcDirectory.GetDigitalDateCreated">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.IptcReader.Extract(MetadataExtractor.IO.SequentialReader,System.Int64)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Iptc.Iso2022Converter.ConvertEscapeSequenceToEncodingName(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfif.JfifDescriptor.#ctor(MetadataExtractor.Formats.Jfif.JfifDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfif.JfifDescriptor.GetImageVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfif.JfifDescriptor.GetImageResYDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfif.JfifDescriptor.GetImageResXDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfif.JfifDescriptor.GetImageResUnitsDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfif.JfifReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfif.JfifReader.Extract(MetadataExtractor.IO.IndexedReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfxx.JfxxDescriptor.#ctor(MetadataExtractor.Formats.Jfxx.JfxxDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfxx.JfxxDescriptor.GetExtensionCodeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfxx.JfxxReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jfxx.JfxxReader.Extract(MetadataExtractor.IO.IndexedReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.IJpegSegmentMetadataReader.GetSegmentTypes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.IJpegSegmentMetadataReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <parameter name="segments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegCommentDescriptor.#ctor(MetadataExtractor.Formats.Jpeg.JpegCommentDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegCommentDescriptor.GetJpegCommentDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegCommentDirectory.#ctor(System.String)">
+    <parameter name="comment">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegCommentReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegDescriptor.#ctor(MetadataExtractor.Formats.Jpeg.JpegDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegDescriptor.GetImageCompressionTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegDescriptor.GetImageWidthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegDescriptor.GetImageHeightDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegDescriptor.GetDataPrecisionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegDescriptor.GetComponentDataDescription(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegDirectory.GetComponent(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegMetadataReader.ReadMetadata(System.IO.Stream,System.Collections.Generic.IEnumerable{MetadataExtractor.Formats.Jpeg.IJpegSegmentMetadataReader})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="readers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegMetadataReader.ReadMetadata(System.String,System.Collections.Generic.IEnumerable{MetadataExtractor.Formats.Jpeg.IJpegSegmentMetadataReader})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="readers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegMetadataReader.Process(System.IO.Stream,System.Collections.Generic.IEnumerable{MetadataExtractor.Formats.Jpeg.IJpegSegmentMetadataReader})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="readers">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegMetadataReader.ProcessJpegSegmentData(System.Collections.Generic.IEnumerable{MetadataExtractor.Formats.Jpeg.IJpegSegmentMetadataReader},MetadataExtractor.Formats.Jpeg.JpegSegmentData)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="segmentData">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegProcessingException.#ctor(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegProcessingException.#ctor(System.String,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegProcessingException.#ctor(System.Exception)">
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="segments">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegReader.Extract(System.Byte[],MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="segmentBytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegSegmentData.AddSegment(MetadataExtractor.Formats.Jpeg.JpegSegmentType,System.Byte[])">
+    <parameter name="segmentBytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegSegmentData.GetSegmentTypes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegSegmentData.GetSegment(MetadataExtractor.Formats.Jpeg.JpegSegmentType,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Jpeg.JpegSegmentData.GetSegments(MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="segmentTypes">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="segmentTypes">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Pcx.PcxDescriptor.#ctor(MetadataExtractor.Formats.Pcx.PcxDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Pcx.PcxDescriptor.GetVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Pcx.PcxDescriptor.GetColorPlanesDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Pcx.PcxDescriptor.GetPaletteTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Pcx.PcxMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Pcx.PcxMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Pcx.PcxReader.Extract(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.DuckyReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.DuckyReader.Extract(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.#ctor(MetadataExtractor.Formats.Photoshop.PhotoshopDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.GetJpegQualityString">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.GetPixelAspectRatioString">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.GetPrintScaleDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.GetResolutionInfoDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.GetVersionDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.GetSlicesDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDescriptor.GetThumbnailDescription(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopDirectory.GetThumbnailBytes">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PhotoshopReader.Extract(MetadataExtractor.IO.SequentialReader,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdHeaderDescriptor.#ctor(MetadataExtractor.Formats.Photoshop.PsdHeaderDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdHeaderDescriptor.GetChannelCountDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdHeaderDescriptor.GetBitsPerChannelDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdHeaderDescriptor.GetColorModeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdHeaderDescriptor.GetImageHeightDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdHeaderDescriptor.GetImageWidthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Photoshop.PsdReader.Extract(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngChromaticities.#ctor(System.Byte[])">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngChunk.#ctor(MetadataExtractor.Formats.Png.PngChunkType,System.Byte[])">
+    <parameter name="chunkType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Formats.Png.PngChunk.ChunkType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Formats.Png.PngChunk.Bytes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngChunkReader.Extract(MetadataExtractor.IO.SequentialReader,System.Collections.Generic.ICollection{MetadataExtractor.Formats.Png.PngChunkType})">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="desiredChunkTypes">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngChunkType.#ctor(System.String,System.Boolean)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngChunkType.#ctor(System.Byte[])">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Formats.Png.PngChunkType.Identifier">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.#ctor(MetadataExtractor.Formats.Png.PngDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetColorTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetCompressionTypeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetFilterMethodDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetInterlaceMethodDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetPaletteHasTransparencyDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetIsSrgbColorSpaceDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetUnitSpecifierDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetLastModificationTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetTextualDataDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDescriptor.GetBackgroundColorDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDirectory.#ctor(MetadataExtractor.Formats.Png.PngChunkType)">
+    <parameter name="pngChunkType">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngDirectory.GetPngChunkType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngHeader.#ctor(System.Byte[])">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Formats.Png.PngHeader.ColorType">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngProcessingException.#ctor(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngProcessingException.#ctor(System.String,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Png.PngProcessingException.#ctor(System.Exception)">
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.QuickTime.QuickTimeMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Formats.QuickTime.AtomCallbackArgs.TypeString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.QuickTime.QuickTimeReader.ProcessAtoms(System.IO.Stream,System.Action{MetadataExtractor.Formats.QuickTime.AtomCallbackArgs},System.Int64)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.QuickTime.QuickTimeReaderExtensions.Get4ccString(MetadataExtractor.IO.SequentialReader)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.QuickTime.QuickTimeReaderExtensions.Get16BitFixedPoint(MetadataExtractor.IO.SequentialReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.QuickTime.QuickTimeReaderExtensions.Get32BitFixedPoint(MetadataExtractor.IO.SequentialReader)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Raf.RafMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Riff.IRiffHandler.ShouldAcceptRiffIdentifier(System.String)">
+    <parameter name="identifier">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Riff.IRiffHandler.ShouldAcceptChunk(System.String)">
+    <parameter name="fourCc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Riff.IRiffHandler.ProcessChunk(System.String,System.Byte[])">
+    <parameter name="fourCc">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="payload">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Riff.RiffProcessingException.#ctor(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Riff.RiffProcessingException.#ctor(System.String,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Riff.RiffProcessingException.#ctor(System.Exception)">
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Riff.RiffReader.ProcessRiff(MetadataExtractor.IO.SequentialReader,MetadataExtractor.Formats.Riff.IRiffHandler)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.Completed(MetadataExtractor.IO.IndexedReader,System.Int32)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.CustomProcessTag(System.Int32,System.Collections.Generic.ICollection{System.Int32},System.Int32,MetadataExtractor.IO.IndexedReader,System.Int32,System.Int32)">
+    <parameter name="processedIfdOffsets">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.Warn(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.Error(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetByteArray(System.Int32,System.Byte[])">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetRationalArray(System.Int32,MetadataExtractor.Rational[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetFloatArray(System.Int32,System.Single[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetDoubleArray(System.Int32,System.Double[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetInt8SArray(System.Int32,System.SByte[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetInt8UArray(System.Int32,System.Byte[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetInt16SArray(System.Int32,System.Int16[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetInt16UArray(System.Int32,System.UInt16[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetInt32SArray(System.Int32,System.Int32[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.ITiffHandler.SetInt32UArray(System.Int32,System.UInt32[])">
+    <parameter name="array">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffDataFormat.FromTiffFormatCode(MetadataExtractor.Formats.Tiff.TiffDataFormatCode)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Formats.Tiff.TiffDataFormat.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffProcessingException.#ctor(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffProcessingException.#ctor(System.String,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffProcessingException.#ctor(System.Exception)">
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffReader.ProcessTiff(MetadataExtractor.IO.IndexedReader,MetadataExtractor.Formats.Tiff.ITiffHandler,System.Int32)">
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Tiff.TiffReader.ProcessIfd(MetadataExtractor.Formats.Tiff.ITiffHandler,MetadataExtractor.IO.IndexedReader,System.Collections.Generic.ICollection{System.Int32},System.Int32,System.Int32)">
+    <parameter name="handler">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="reader">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="processedIfdOffsets">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.WebP.WebPDescriptor.#ctor(MetadataExtractor.Formats.WebP.WebPDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.WebP.WebPMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.WebP.WebPMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.WebP.WebPRiffHandler.#ctor(System.Collections.Generic.List{MetadataExtractor.Directory})">
+    <parameter name="directories">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.#ctor(MetadataExtractor.Formats.Xmp.XmpDirectory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.GetExposureTimeDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.GetExposureProgramDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.GetShutterSpeedDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.GetFNumberDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.GetFocalLengthDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.GetApertureValueDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDescriptor.GetRatingDescription">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDirectory.GetXmpProperties">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpDirectory.SetXmpMeta(XmpCore.IXmpMeta)">
+    <parameter name="xmpMeta">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Formats.Xmp.XmpDirectory.XmpMeta">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpReader.ReadJpegSegments(System.Collections.Generic.IEnumerable{System.Byte[]},MetadataExtractor.Formats.Jpeg.JpegSegmentType)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Formats.Xmp.XmpReader.Extract(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="xmpBytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.IO.ByteArrayReader.#ctor(System.Byte[])">
+    <parameter name="buffer">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.IO.IndexedCapturingReader.#ctor(System.IO.Stream,System.Int32)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.IO.IndexedReader.GetBytes(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.IO.IndexedReader.GetString(System.Int32,System.Int32,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.IO.IndexedReader.GetNullTerminatedString(System.Int32,System.Int32,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.IO.IndexedReader.GetNullTerminatedBytes(System.Int32,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.IO.IndexedSeekingReader.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.IO.SequentialByteArrayReader.#ctor(System.Byte[],System.Int32)">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.IO.SequentialReader.GetBytes(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.IO.SequentialReader.GetString(System.Int32,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.IO.SequentialReader.GetNullTerminatedString(System.Int32,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.IO.SequentialReader.GetNullTerminatedBytes(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.IO.SequentialStreamReader.#ctor(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Util.ByteConvert.ToInt32BigEndian(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Util.ByteConvert.ToInt32LittleEndian(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Util.ByteTrie`1.Find(System.Byte[])">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Util.ByteTrie`1.AddPath(`0,System.Byte[][])">
+    <parameter name="parts">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Util.FileTypeDetector.DetectFileType(System.IO.Stream)">
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Age.FromPanasonicString(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="s">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Age.ToFriendlyString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Directory.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Directory.Parent">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Directory.Tags">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Directory.SetDescriptor(MetadataExtractor.ITagDescriptor)">
+    <parameter name="descriptor">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Directory.AddError(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Directory.Errors">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Directory.Set(System.Int32,System.Object)">
+    <parameter name="value">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Directory.GetObject(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Directory.GetTagName(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.Directory.GetDescription(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetInt16(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetInt16(MetadataExtractor.Directory,System.Int32,System.Int16@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetUInt16(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetUInt16(MetadataExtractor.Directory,System.Int32,System.UInt16@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetInt32(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetInt32(MetadataExtractor.Directory,System.Int32,System.Int32@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetInt64(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetInt64(MetadataExtractor.Directory,System.Int32,System.Int64@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetSingle(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetSingle(MetadataExtractor.Directory,System.Int32,System.Single@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetDouble(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetDouble(MetadataExtractor.Directory,System.Int32,System.Double@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetBoolean(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetBoolean(MetadataExtractor.Directory,System.Int32,System.Boolean@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetStringArray(MetadataExtractor.Directory,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetInt32Array(MetadataExtractor.Directory,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetByteArray(MetadataExtractor.Directory,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetDateTime(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetDateTime(MetadataExtractor.Directory,System.Int32,System.DateTime@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetRational(MetadataExtractor.Directory,System.Int32)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.TryGetRational(MetadataExtractor.Directory,System.Int32,MetadataExtractor.Rational@)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetRationalArray(MetadataExtractor.Directory,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetString(MetadataExtractor.Directory,System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.DirectoryExtensions.GetString(MetadataExtractor.Directory,System.Int32,System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="encoding">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Face.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.String,MetadataExtractor.Age)">
+    <parameter name="name">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="age">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Face.Name">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Face.Age">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.GeoLocation.DecimalToDegreesMinutesSecondsString(System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.GeoLocation.DecimalToDegreesMinutesSeconds(System.Double)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.GeoLocation.DegreesMinutesSecondsToDecimal(MetadataExtractor.Rational,MetadataExtractor.Rational,MetadataExtractor.Rational,System.Boolean)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.GeoLocation.ToDmsString">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <attribute ctor="M:JetBrains.Annotations.PureAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.ImageMetadataReader.ReadMetadata(System.IO.Stream)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="stream">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.ImageMetadataReader.ReadMetadata(System.String)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="filePath">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.ImageProcessingException.#ctor(System.String)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.ImageProcessingException.#ctor(System.String,System.Exception)">
+    <parameter name="message">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.ImageProcessingException.#ctor(System.Exception)">
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.ITagDescriptor.GetDescription(System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.KeyValuePair.#ctor(System.String,MetadataExtractor.StringValue)">
+    <parameter name="key">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.KeyValuePair.Key">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.MetadataException.#ctor(System.String)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.MetadataException.#ctor(System.Exception)">
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.MetadataException.#ctor(System.String,System.Exception)">
+    <parameter name="msg">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+    <parameter name="innerException">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Rational.ToSimpleString(System.Boolean,System.IFormatProvider)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.StringValue.#ctor(System.Byte[],System.Text.Encoding)">
+    <parameter name="bytes">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.StringValue.Bytes">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.StringValue.Encoding">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.StringValue.ToString(System.Text.Encoding)">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    <parameter name="encoder">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.Tag.#ctor(System.Int32,MetadataExtractor.Directory)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="P:MetadataExtractor.Tag.Description">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Tag.Name">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Tag.TagName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="P:MetadataExtractor.Tag.DirectoryName">
+    <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+  </member>
+  <member name="M:MetadataExtractor.TagDescriptor`1.#ctor(`0)">
+    <parameter name="directory">
+      <attribute ctor="M:JetBrains.Annotations.NotNullAttribute.#ctor" />
+    </parameter>
+  </member>
+  <member name="M:MetadataExtractor.TagDescriptor`1.ConvertBytesToVersionString(System.Int32[],System.Int32)">
+    <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    <parameter name="components">
+      <attribute ctor="M:JetBrains.Annotations.CanBeNullAttribute.#ctor" />
+    </parameter>
+  </member>
+</assembly>
