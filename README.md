@@ -7,7 +7,7 @@ All contributors welcome
 This command line app is designed to help post-process and fix issues with images files (currently only JPGs).
 
 ### Download
-You can download the executable here. [ImageProcessingConsole.exe](https://github.com/nrogoff/ImageProcessingConsole/blob/master/download/ImageProcessingConsole.exe)
+You can download the executables of the latest release [here](https://github.com/nrogoff/ImageProcessingConsole/releases)
 
 ##### Platform code
 
