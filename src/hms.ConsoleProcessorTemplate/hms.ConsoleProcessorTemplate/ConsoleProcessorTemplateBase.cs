@@ -65,8 +65,8 @@ namespace hms.ConsoleProcessorTemplate
         /// </summary>
         private void OnFail()
         {
-            Console.WriteLine("!! command arguements failed validation !!");
 #if DEBUG
+            Console.WriteLine("!! command arguements failed validation !!");
             Console.ReadKey();         
 #endif
             Console.CursorVisible = true;
