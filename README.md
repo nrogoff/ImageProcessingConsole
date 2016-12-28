@@ -16,11 +16,11 @@ You can download the executable here. [ImageProcessingConsole.exe](https://githu
 
 ## Functionality and How to use
 As new functionality comes online, then this sections will be updated.
-### Update EXIF 'Shot Taken' date
-For various reasons photographic images sometimes do not have their 'Shot Taken Date' (also known as 'Digitized Date', 'Date Taken' or 'Original Date'). 
+### Update EXIF 'Date Taken'
+For various reasons photographic images sometimes do not have their **'Date Taken'** (also known as 'Digitized Date' or 'Original Date'). 
 Cataloging tools (e.g. OneDrive or Google Drive Photos or Windows Photos App) will then usually resort to sorting and cataloging your photos by Created or Modified date. This can be pretty confusing, especially when you have copied and/or edited digital photo's or created photos by scanning old film and slides.
 
-This tool has the capability to update one or more image EXIF metadata 'Shot Taken Date's.
+This tool has the capability to update one or more images 'Date Taken' EXIF metadata.
 
 By default, if an image already has a 'Shot Taken Date' then any images files will NOT be updated.
 If you do not supply a new 'Shot Taken Date' then the tool will search for an existing image (nearest first) in the same folder that has a valid date.
@@ -29,19 +29,37 @@ If you do not supply a new 'Shot Taken Date' then the tool will search for an ex
 
 The command line syntax (you can use the short or long form option switches. Note: long form require two preceeding dashes '--'):
 ```
--f, --filepath             
-Required. The full path of the image file, including the filename and extension. 
-Or the folder to search and fix all images in. JPGs and PNGs only
+>ImageProcessingConsole --help
+======= HMS Image Processing Console App =======
+Image Processing Console 1.0.1.21358
+Copyright © Nicholas Rogoff 2016
+MIT License
+-------- Examples -------
+- Update a single image
+>ImageProcessingConsole -f "c:\myphotos\myphoto.jpg" -s 2003-11-17
+- Update all images in a folder (inferred)
+>ImageProcessingConsole -f "c:\myphotos\\"
 
--i, --includeSubfolders    
-If you specified a folder, then to include subfolders.
+  -f, --filepath             Required. The full path of the image file,
+                             including the filename and extension (jpg only).
+                             Or the folder to search and fix all 'Date Taken'
+                             metadata in JPGs only. NOTE: You need to add an
+                             extra '\' at the end when specifying a folder.
 
--s, --shottakendate            
-Set to this Shot Taken Date. yyyy-mm-dd hh:mm:ss . 
-If not specified then the shoot date of the nearest file in the same folder (ordered by name) that has one will be used.
+  -i, --includeSubfolders    Include subfolders. Use in combination with folder
+                             searches.
 
--o, --overwrite            
-Force Shot Taken Date overwrite even if one exists.
+  -s, --shottakendate        Set to this Shot Taken Date. Date must be formated
+                             as follows 'yyyy-mm-dd hh:mm:ss'. If this date is
+                             not specified then the 'Date Taken' (if exists) of
+                             the nearest file in the same folder (ordered by
+                             name) will be used.
+
+  -o, --overwrite            Force overwrite of 'Date Taken' even if one
+                             already exists for the file.
+
+  --help                     Display this help screen.
+
 ```
 ##### Examples
 To update a single images to a date from the nearest valid image file that has one.
